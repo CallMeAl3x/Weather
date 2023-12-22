@@ -31,7 +31,7 @@ const NavBar = () => {
       return;
     }
 
-    const geoUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${inputValue}&appid=c28815edb004a1bbb16a3c7e0ac10fce&units=${metrics}`;
+    const geoUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${inputValue}&appid=c28815edb004a1bbb16a3c7e0ac10fce&units=${metrics}`;
 
     fetch(geoUrl)
       .then((response) => response.json())
