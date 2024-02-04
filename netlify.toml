@@ -1,0 +1,5 @@
+[[redirects]]
+from = "https://weather-app-b-alexandre.netlify.app/*"
+to = "https://weather.bonefons.com/:splat"
+status = 301
+force = true
